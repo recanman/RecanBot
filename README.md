@@ -18,7 +18,10 @@ npm install
 ## Usage
 Getting the bot up and running is an extremely simple process.
 First, open the `config.json` file and edit the `cookie`, the `token`, and the `whitelist`.
+
 The cookie is the .ROBLOSECURITY cookie for authenticated API calls. It is recommended that you create a separate account for this.
+The token is the Discord bot token to run the bot.
+The whitelist is a list of users allowed to use the bot.
 
 After that, run the `bot.js` file.
 
