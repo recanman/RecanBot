@@ -1,5 +1,8 @@
 # RecanBot
 
+https://gyazo.com/54f4e8f007a6a6f0ae2ab407897da7fd
+https://gyazo.com/b8c105cf3def83566ec9ebfda0729d17
+
 A quick, asynchronous Discord bot that fetches IP addresses of Roblox game servers for specific experiences. (Temporary repo name)
 
 ## Installation
