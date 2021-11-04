@@ -1,7 +1,8 @@
 # RecanBot
 
-https://user-images.githubusercontent.com/29310982/140240243-292593e0-34c3-4574-970b-54c0d87fabf4.mp4
-https://user-images.githubusercontent.com/29310982/140240247-38dd3f41-ff23-404b-8bd3-6d43f973b531.mp4
+[](https://user-images.githubusercontent.com/29310982/140240243-292593e0-34c3-4574-970b-54c0d87fabf4.mp4)
+
+[](https://user-images.githubusercontent.com/29310982/140240247-38dd3f41-ff23-404b-8bd3-6d43f973b531.mp4)
 
 A quick, asynchronous Discord bot that fetches IP addresses of Roblox game servers for specific experiences. (Temporary repo name)
 
