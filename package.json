@@ -14,8 +14,7 @@
   "homepage": "https://github.com/recanman/RecanBot#readme",
   "dependencies": {
     "axios": "^0.24.0",
-    "discord.js": "^13.2.0",
-    "node-fetch": "^3.0.0"
+    "discord.js": "^13.2.0"
   },
   "devDependencies": {
     "node": "^16.13.0"
