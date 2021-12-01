@@ -22,7 +22,7 @@ module.exports = {
         
         botEmbed.setThumbnail(res[0].imageUrl)
         botMsg.edit({embeds: [botEmbed]})
-      })
+      }).catch(err => {})
 
       common.axios.post("https://presence.roblox.com/v1/presence/users", {userIds: [userid]}, {headers: {
         Origin: "https://roblox.com",
@@ -54,9 +54,9 @@ module.exports = {
             res = JSON.parse(res.data.replace(/--.*\r\n/, '')) // RegEx from https://github.com/grilme99/Rodentify/blob/206d4dce08321bda0725c0f92920b97b0120ebca/src/getServerInfo.ts#L42
             botEmbed.setDescription(`\`\`\`ruby\n${res.MachineAddress}:${res.ServerPort}\n\`\`\``)
             botMsg.edit({embeds: [botEmbed]})
-          })
+          }).catch(err => {})
         })
-      })
+      }).catch(err => {})
     })
   }
 }
