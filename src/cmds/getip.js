@@ -35,7 +35,7 @@ module.exports = {
         
         botEmbed.setThumbnail(res[0].imageUrl)
         botMsg.edit({embeds: [botEmbed]})
-      })
+      }).catch(err => {})
 
       var currentIpAmount = 0
 
@@ -66,7 +66,7 @@ module.exports = {
               common.axios.get(res.joinScriptUrl).then(res => {
                 res = JSON.parse(res.data.replace(/--.*\r\n/, '')) // RegEx from https://github.com/grilme99/Rodentify/blob/206d4dce08321bda0725c0f92920b97b0120ebca/src/getServerInfo.ts#L42
                 resolve(`${res.MachineAddress}:${res.ServerPort} [${server.ping}ms], ${server.playing} / ${server.maxPlayers} playing\n`)
-              })
+              }).catch(err => {})
             })
           }))
         })
@@ -75,7 +75,7 @@ module.exports = {
           botEmbed.setDescription(`\`\`\`ruby\n${servers.join("")}\`\`\`  `)
           botMsg.edit({embeds: [botEmbed]})
         })
-      })
+      }).catch(err => {})
     })
   }
 }
