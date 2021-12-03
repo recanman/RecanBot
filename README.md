@@ -1,4 +1,5 @@
 # RecanBot
+<sub><sup>This repository is no longer maintained.</sup></sub>
 A quick, asynchronous Discord bot that fetches IP addresses of Roblox game servers for specific experiences.
 
 [](https://user-images.githubusercontent.com/29310982/140240243-292593e0-34c3-4574-970b-54c0d87fabf4.mp4)
