@@ -1,5 +1,7 @@
 <sub><sup>This repository is no longer maintained.</sup></sub>
 
+# Roblox has changed the way their AssetGame API handles game joins. The bot is currently broken, and (may) not be fixed.
+
 # RecanBot
 A quick, asynchronous Discord bot that fetches IP addresses of Roblox game servers for specific experiences.
 
